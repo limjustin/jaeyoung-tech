@@ -15,18 +15,18 @@ module.exports = {
   ga: 'G-BE92GNG3XF', // Google Analytics Tracking ID
   as: 'ca-pub-4083591465738564',
   author: {
-    name: `신주영`,
+    name: `임재영`,
     bio: {
       role: `개발자`,
       description:
-        '디자인과 성능 최적화에 관심이 많은 프론트엔드 개발자입니다. 온라인에서는 조이라는 닉네임으로 활동하고 있습니다.',
+        'MLOps Engineer 임재영입니다.',
       thumbnail: 'myPicture.jpg', // Path to the image in the 'asset' folder
       thumbnailSmall: 'myPicture_small.jpg',
     },
     social: {
-      github: `https://github.com/S-jooyoung`,
-      linkedIn: `https://www.linkedin.com/in/joy-shin/`,
-      email: `jooyoung.dev@gmail.com`,
+      github: `https://github.com/limjustin`,
+      linkedIn: `https://www.linkedin.com/in/youngjaelim`,
+      email: `limjyjustin@gmail.com`,
     },
   },
 
