@@ -12,7 +12,6 @@ module.exports = {
       repo: 'S-jooyoung/joyTech-comments',
     },
   },
-  ga: 'G-BE92GNG3XF', // Google Analytics Tracking ID
   as: 'ca-pub-4083591465738564',
   author: {
     name: `임재영`,

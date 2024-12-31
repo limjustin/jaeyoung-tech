@@ -14,12 +14,12 @@ module.exports = {
         anonymize: true,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: metaConfig.as,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-adsense`,
+    //   options: {
+    //     publisherId: metaConfig.as,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
