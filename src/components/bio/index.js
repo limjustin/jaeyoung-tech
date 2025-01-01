@@ -14,7 +14,7 @@ function Bio({ author, language = 'ko' }) {
         </div>
         {language === 'ko' ? (
           <div className="introduction korean">
-            <p className="title">🧑🏻‍💻{name}</p>
+            <p className="title">{name}</p>
             <p className="description">{bio.description}</p>
             <div className="social-links">
               <IconButtonBar links={social} />
@@ -23,7 +23,7 @@ function Bio({ author, language = 'ko' }) {
         ) : (
           <div className="introduction english">
             <p className="title">
-              🧑🏻‍💻<string>{name}</string>
+              <string>{name}</string>
             </p>
             <p className="description">{bio.description}</p>
             <div className="social-links">
