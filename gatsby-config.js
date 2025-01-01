@@ -181,7 +181,7 @@ module.exports = {
             // 최종 rss feed파일 입니다. 디렉토리가 다르거나, 이름이 다른경우 설정 가능합니다.
             output: '/rss.xml',
             // 본인의 blog rss feed용 타이틀을 명시합니다.
-            title: '조이 기술 블로그, 조이 테크',
+            title: 'Jaeyoung Tech Blog',
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;

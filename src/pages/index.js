@@ -17,7 +17,7 @@ function HomePage({ data }) {
 
   return (
     <Layout>
-      <Seo title="조이 기술 블로그, 조이 테크" />
+      <Seo title="Jaeyoung Tech Blog" />
       <Bio author={author} language={language} />
       <PostTabs
         posts={posts}

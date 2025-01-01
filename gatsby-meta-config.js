@@ -18,7 +18,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description:
-        'MLOps Engineer 임재영입니다.',
+        'NHN AD에서 MLOps Engineer로 근무하고 있는 임재영입니다.',
       thumbnail: 'myPicture.jpg', // Path to the image in the 'asset' folder
       thumbnailSmall: 'myPicture_small.jpg',
     },
