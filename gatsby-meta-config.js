@@ -2,7 +2,7 @@ module.exports = {
   title: `Jaeyoung`,
   type: ` Tech Blog`,
   logo: `/logo.svg`,
-  description: `웹 프론트엔드 개발과 관련한 포스트를 작성하고 있습니다.`,
+  description: `개발자 임재영의 기술 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://jaeyoung.site`, // https://s-jooyoung.github.io
   siteMap: `https://jaeyoung.site`, // https://s-jooyoung.github.io/sitemap-pages.xml
