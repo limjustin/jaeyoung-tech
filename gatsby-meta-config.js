@@ -4,8 +4,8 @@ module.exports = {
   logo: `/logo.svg`,
   description: `웹 프론트엔드 개발과 관련한 포스트를 작성하고 있습니다.`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://limjustin.shop`, // https://s-jooyoung.github.io
-  siteMap: `https://limjustin.shop`, // https://s-jooyoung.github.io/sitemap-pages.xml
+  siteUrl: `https://jaeyoung.site`, // https://s-jooyoung.github.io
+  siteMap: `https://jaeyoung.site`, // https://s-jooyoung.github.io/sitemap-pages.xml
   ogImage: `/ogImage.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -18,7 +18,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description:
-        'NHN AD에서 MLOps Engineer로 근무하고 있는 임재영입니다.',
+        'Junior MLOps Engineer & Backend Developer',
       thumbnail: 'myPicture.jpg', // Path to the image in the 'asset' folder
       thumbnailSmall: 'myPicture_small.jpg',
     },
@@ -32,10 +32,13 @@ module.exports = {
   // metadata for About Page
   about: {
     introduce: [
-      '사용자 중심의 소프트웨어 개발을 통해 비즈니스 성장을 이끌어가는 프론트엔드 개발자입니다. 2022년부터 다양한 스타트업에서 활동하며 여러 프로젝트를 성공적으로 수행해 왔습니다.',
-      '공유 별장 스타트업 스테이빌리티에서는 프론트엔드 업무를 혼자 담당하며 밀리언그라운드 서비스의 모든 IT 기능을 개발 및 운영했습니다. 현재 예약 오류율과 결제 오류율을 1% 미만으로 유지하고 있으며, 2024년 초에 오픈한 “어나더 빌라”는 2024년 예약을 모두 완료했습니다.',
-      '스타법무법인에서는 단순 업무를 자동화하는 백오피스를 기획 및 개발하여 서비스팀의 주당 업무 시간을 30시간 이상 절감했습니다. 또한, 각종 페이지의 UI/UX 디자인을 개선하여 사용자 경험을 향상한 경험이 있습니다.',
-      '저는 문제를 해결하며 비즈니스 성장에 기여하는 것을 최우선으로 생각합니다. 이를 위해 빠른 개발과 배포를 통해 신속하게 결과물을 전달하고, 데이터를 활용해 사용자 이해도를 높이는 역량을 지속적으로 키워왔습니다.',
+      'Junior MLOps Engineer & Backend Developer 임재영입니다.',
+      '공유 별장 스타트업 스테이빌리티에서는 프론트엔드 업무를 혼자 담당하며 밀리언그라운드 서비스의 모든 IT 기능을 개발 및 운영했습니다. 현재 예약 오류율과 결제 ' +
+      '오류율을 1% 미만으로 유지하고 있으며, 2024년 초에 오픈한 “어나더 빌라”는 2024년 예약을 모두 완료했습니다.',
+      '스타법무법인에서는 단순 업무를 자동화하는 백오피스를 기획 및 개발하여 서비스팀의 주당 업무 시간을 30시간 이상 절감했습니다. 또한, 각종 페이지의 UI/UX ' +
+      '디자인을 개선하여 사용자 경험을 향상한 경험이 있습니다.',
+      '저는 문제를 해결하며 비즈니스 성장에 기여하는 것을 최우선으로 생각합니다. 이를 위해 빠른 개발과 배포를 통해 신속하게 결과물을 전달하고, 데이터를 활용해 ' +
+      '사용자 이해도를 높이는 역량을 지속적으로 키워왔습니다.',
     ],
     timestamps: [
       // =====       [Timestamp Sample and Structure]      =====
@@ -53,7 +56,7 @@ module.exports = {
       {
         activity: 'NHN AD',
         activityDescription:
-          '디지털 마케팅 서비스를 제공하는 온라인 광고 대행사이자, NHN(주)의 광고 전문 자회사',
+          '디지털 마케팅 서비스를 제공하는 온라인 광고 대행사',
         job: 'MLOps Engineer',
         jobDescriptions: [
           '프론트엔드 개발을 책임지며 밀리언그라운드에 필요한 모든 서비스를 만들고 있습니다. 별장을 구매한 오너분들과 일반 인분들이 편하게 예약하실 수 있게 예약 서비스를 개발하고 사용자에게 서비스를 제공하는 데 필요한 내부 관리 시스템을 개발하고 있습니다.',

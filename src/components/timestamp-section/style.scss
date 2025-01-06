@@ -33,17 +33,16 @@
         .activity-title {
           color: var(--primary-text-color);
           text-decoration: underline;
-          text-decoration-style: dashed;
+          text-decoration-style: wavy;
           text-decoration-thickness: 1px;
           text-underline-offset: 6px;
           width: 100%;
-          font-size: 21px;
-          font-weight: 700;
+          font-size: 20px;
+          font-weight: 400;
           transition: 300ms;
         }
 
         .activity-title::after {
-          content: ' ↗ ';
           font-size: 80%;
           vertical-align: middle;
           font-weight: 700;
@@ -55,7 +54,7 @@
 
         .activity-description {
           margin: 8px 0px;
-          padding: 1.5em 1em;
+          padding: 1em 1em;
           font-size: 16px;
           color: var(--content-text-color);
           background-color: var(--button-background-color);
@@ -65,7 +64,7 @@
           border-left: 0.25em solid var(--markdown-blockquote-border-color);
 
           @include md {
-            font-size: 18px;
+            font-size: 16px;
           }
         }
       }
