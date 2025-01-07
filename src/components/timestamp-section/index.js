@@ -12,7 +12,7 @@ function TimeStampSection({ title, timestamps }) {
           index === 0 ? null : (
             <div className="timestamp" key={index}>
               <div className="activity">
-                <a className="activity-title" href={timestamp.link} target="_blank">
+                <a className="activity-title" href={timestamp.link}>
                   {timestamp.activity}
                 </a>
                 <p className="activity-description">{timestamp.activityDescription}</p>
