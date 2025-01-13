@@ -1,6 +1,6 @@
 module.exports = {
-  title: `Jaeyoung`,
-  type: ` Tech Blog`,
+  title: ` `,
+  type: ` `,
   logo: `/logo.svg`,
   description: `개발자 임재영의 기술 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
