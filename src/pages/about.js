@@ -13,7 +13,7 @@ function AboutPage({ data }) {
   const { timestamps, projects, introduce } = about;
   return (
     <Layout>
-      <Seo title="소개 | Jaeyoung Tech Blog" />
+      <Seo title="소개 | JAEYOUNG TECH" />
       <Bio author={author} language={language} />
       <IntroduceSection title="Hello World! 👋🏻" descriptions={introduce} />
       <TimeStampSection title="Workplace 👔" timestamps={timestamps} />
