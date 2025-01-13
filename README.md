@@ -60,7 +60,7 @@ description: '', // 웹 프론트엔드 개발과 관련한 포스트를 작성�
 language: '', // `ko`, `en` => currently support versions for Korean and English
 siteUrl: '', // https://joy.pe.kr
 siteMap: '', // https://joy.pe.kr//sitemap-pages.xml
-ogImage: '', // Path to your in the 'static' folder, /ogImage.png
+ogImage: '', // Path to your in the 'static' folder, /ogImage.jpg
 ```
 
 ### 2. 댓글 설정

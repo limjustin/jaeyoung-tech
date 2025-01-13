@@ -6,7 +6,7 @@ module.exports = {
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://jaeyoung.site`, // https://s-jooyoung.github.io
   siteMap: `https://jaeyoung.site`, // https://s-jooyoung.github.io/sitemap-pages.xml
-  ogImage: `/ogImage.png`, // Path to your in the 'static' folder
+  ogImage: `/ogImage.jpg`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: 'S-jooyoung/joyTech-comments',
