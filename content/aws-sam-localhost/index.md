@@ -1,5 +1,5 @@
 ---
-emoji: 🚪
+emoji: 🛖
 title: AWS SAM을 활용한 Lambda 로컬 테스트 가이드
 date: '2025-01-20 11:31:25'
 author: 임재영
@@ -40,10 +40,14 @@ AWS SAM(AWS Serverless Application Model)을 활용하여 Lambda 함수를 로�
 
 <img alt="plugin 환경 설정" src="sam-3.png">
 
+---
+
 ### 구성 요소 살펴보기
 
-**app.js**
+#### **app.py ⭐**
 ```python
+import json
+
 def lambda_handler(event, context):
     return {
     "statusCode": 200,
@@ -51,10 +55,66 @@ def lambda_handler(event, context):
         {
             "message": "hello NHN!",
         }
-    ),
+    )
 }
 ```
+- 메인함수 핸들러를 포함하는 본체 함수입니다.
+
+#### **template.yaml 🍫**
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  python3.12
+
+  Sample SAM Template for sam-local-test
+
+Globals:
+  Function:
+    Timeout: 3
+
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      PackageType: Image
+      Architectures:
+        - x86_64
+      MemorySize: 256
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: get
+    Metadata:
+      Dockerfile: Dockerfile
+      DockerContext: ./hello_world
+      DockerTag: python3.12-v1
+
+Outputs:
+  HelloWorldApi:
+    Description: "API Gateway endpoint URL for Prod stage for Hello World function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
+  HelloWorldFunction:
+    Description: "Hello World Lambda Function ARN"
+    Value: !GetAtt HelloWorldFunction.Arn
+  HelloWorldFunctionIamRole:
+    Description: "Implicit IAM Role created for Hello World function"
+    Value: !GetAtt HelloWorldFunctionRole.Arn
+```
+- Lambda 함수와 관련된 AWS 리소스 및 여러 설정을 정의합니다.
+- Docker 이미지를 사용하는 경우 이를 참조합니다.
+
+#### **Dockerfile 🐳**
+```dockerfile
+FROM public.ecr.aws/lambda/python:3.12
+COPY app.py requirements.txt ./
+RUN python3.12 -m pip install -r requirements.txt -t .
+CMD ["app.lambda_handler"]
+```
+- Lambda 함수를 실행할 이미지를 커스터마이징할 때 사용합니다.
+
+---
 
 ### Lambda 함수 실행하기
-
-####

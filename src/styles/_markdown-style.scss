@@ -72,7 +72,7 @@
   word-wrap: break-word;
 
   @include md {
-    font-size: 18px;
+    font-size: 16px;  // 본문 글씨 크기 조절 (default: 18px)
   }
 }
 
