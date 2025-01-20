@@ -1,6 +1,6 @@
 ---
 emoji: 🚪
-title: 2024 개발자 회고록
+title: 코틀린에서 open, close
 date: '2025-01-13 00:00:00'
 author: 임재영
 tags: 백엔드 github-pages gatsby

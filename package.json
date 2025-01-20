@@ -5,6 +5,7 @@
   "version": "3.0.0",
   "author": "joy <jooyoung.dev@gmail.com>",
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^4.4.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.1.0",
@@ -23,6 +24,7 @@
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-remark-autolink-headers": "^6.13.1",
     "gatsby-remark-copy-linked-files": "^6.13.1",
+    "gatsby-remark-highlight-code": "^3.3.0",
     "gatsby-remark-images": "^7.13.1",
     "gatsby-remark-prismjs": "^7.13.1",
     "gatsby-remark-responsive-iframe": "^6.13.1",

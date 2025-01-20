@@ -72,3 +72,9 @@ a {
     }
   }
 }
+
+deckgo-highlight-code {
+  --deckgo-highlight-code-font-size: 1rem;
+  --deckgo-highlight-code-padding: 0 0 0 2ch;
+  --deckgo-highlight-code-font-family: 'Consolas', 'Monaco', monospace;
+}
