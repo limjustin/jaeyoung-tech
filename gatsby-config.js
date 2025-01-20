@@ -66,11 +66,12 @@ module.exports = {
             }
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-images`,  // 참고 링크 : https://www.gatsbyjs.com/plugins/gatsby-remark-images/
             options: {
-              maxWidth: 720,
-              linkImagesToOriginal: false,
+              maxWidth: 1080,  // 해상도 조절
+              linkImagesToOriginal: true,
               backgroundColor: 'transparent',
+              disableBgImage: true,  // 이중 이미지 버그 수정
             },
           },
           {

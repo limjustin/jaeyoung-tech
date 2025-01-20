@@ -27,11 +27,11 @@ AWS SAM(AWS Serverless Application Model)을 활용하여 Lambda 함수를 로�
 
 1. Pycharm IDE에서 `AWS Toolkit` 플러그인 설치가 필요합니다.
 
-<img alt="plugin 환경 설정" src="sam-1.png">
+![sam-01.png](sam-01.png)
 
 2. IDE 재부팅 이후, 새 프로젝트를 생성하여 좌측 하단 'Other' 탭을 펼치고 'AWS Serverless Application' 항목을 선택합니다.
 
-<img alt="plugin 환경 설정" src="sam-2.png">
+![sam-2.png](sam-2.png)
 
 - Package Type : `Image` 항목을 선택합니다.
 - SAM Template : `AWS SAM Hello World` 항목을 선택합니다.
