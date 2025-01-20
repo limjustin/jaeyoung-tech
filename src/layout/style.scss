@@ -65,7 +65,7 @@ a {
       filter: blur(100px);
       transform: translateX(66.6%) translateY(-66.666%);
       opacity: 0.5;
-      background-color: var(--highlight-color);
+      //background-color: var(--highlight-color);
       @include md {
         transform: translateX(60%) translateY(-60%);
       }

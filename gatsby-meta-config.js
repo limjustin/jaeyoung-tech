@@ -14,11 +14,11 @@ module.exports = {
   },
   as: 'ca-pub-4083591465738564',
   author: {
-    name: `임재영`,
+    name: `Jaeyoung Lim`,
     bio: {
       role: `개발자`,
       description:
-        'Junior MLOps Engineer & Backend Developer',
+        'MLOps Engineer & Backend Developer',
       thumbnail: 'myPicture.jpg', // Path to the image in the 'asset' folder
       thumbnailSmall: 'myPicture_small.jpg',
     },
