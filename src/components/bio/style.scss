@@ -55,19 +55,19 @@
 
       .title {
         font-size: 18px;  // 22px
-        font-weight: 800;
+        font-weight: 100;
         margin-bottom: 12px;
         line-height: 1.4;
 
         @include md {
-          font-size: 28px;
+          font-size: 32px;
         }
       }
 
       .description {
         font-size: 16px;
-        font-weight: 400;
-        font-family: cursive;
+        font-weight: 100;
+        font-family: sans-serif;
         margin-bottom: 10px;
         line-height: 1.5;
         color: var(--secondary-text-color);
