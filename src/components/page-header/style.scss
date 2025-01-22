@@ -1,7 +1,7 @@
 @use '../../styles/mixins' as *;
 
 .page-header-transparent {
-  background-color: var(--background-transparent-color) !important;
+  background-color: var(--header-bar-color) !important;
   transition: 300ms;
 }
 
@@ -14,7 +14,7 @@
   width: 100%;
   height: 60px;
   border-bottom: 1px solid var(--header-bottom-color);
-  background-color: var(--background-color);
+  background-color: var(--header-bar-color);
 
   .page-header {
     display: flex;
@@ -80,6 +80,7 @@
 
       #menu {
         position: relative;
+        color: #ffffff
       }
 
       #menu:before {

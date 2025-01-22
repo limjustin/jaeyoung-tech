@@ -13,7 +13,7 @@ thumbnail: './thumbnail.png'
 > - 요약 내용이 필요하다
 > - 요약 내용이 필요하다
 
-### 시작하며
+### ✅ 시작하며
 AWS Lambda 함수에서 직접 백엔드 코드를 호출하고 싶습니다.
 하지만 AWS 환경에 있는 Lambda 함수는 로컬 환경에 있는 백엔드 코드를 직접 호출할 수 없습니다.
 또한 Lambda 함수를 매번 테스트할 때마다 AWS 환경으로 전환하여 테스트하기에는 무리가 있습니다.
@@ -23,7 +23,7 @@ AWS SAM(AWS Serverless Application Model)을 활용하여 Lambda 함수를 로�
 
 ---
 
-### SAM 프로젝트 세팅하기
+### ✅ SAM 프로젝트 세팅하기
 
 1. Pycharm IDE에서 `AWS Toolkit` 플러그인 설치가 필요합니다.
 
@@ -42,7 +42,7 @@ AWS SAM(AWS Serverless Application Model)을 활용하여 Lambda 함수를 로�
 
 ---
 
-### 구성 요소 살펴보기
+### ✅ 구성 요소 살펴보기
 
 #### **app.py ⭐**
 ```python
@@ -117,4 +117,46 @@ CMD ["app.lambda_handler"]
 
 ---
 
-### Lambda 함수 실행하기
+### ✅ Lambda 함수 실행하기
+
+Lambda 함수를 실행하는 방법은 두 가지이고, 실행 결과는 똑같습니다.
+
+1. 커맨드 입력을 통한 실행
+```
+sam build
+sam local invoke HelloWorldFunction -e events/event.json
+```
+
+2. template.yaml 파일 내에서 실행
+
+![sam-4.png](sam-4.png)
+
+좌측 초록색 실행 버튼을 누르면 됩니다.
+
+---
+
+### ✅ 로컬 서버 실행하기
+
+아래 커맨드를 통해 Lambda 함수를 로컬 서버로 실행할 수 있습니다.
+
+```
+sam local start-api
+```
+
+```{6}
+Initializing the lambda functions containers.
+Building image.................
+Using local image: helloworldfunction:rapid-x86_64.
+
+Containers Initialization is done.
+Mounting HelloWorldFunction at http://127.0.0.1:3000/hello [GET]
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected
+instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to       
+restart SAM CLI if you update your AWS SAM template
+2025-01-21 11:25:18 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:3000
+```
+- localhost 3000번 포트에서 구동되고 있는 것을 볼 수 있다.
+- 주의 : 로컬 서버 구동 시, `Docker`가 구동되고 있어야 합니다!
+
+![sam-5.png](sam-5.png)
