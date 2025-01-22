@@ -1,9 +1,9 @@
 {
-  "name": "joy",
+  "name": "jaeyoung",
   "private": false,
   "description": "A neat blog theme for developers",
   "version": "3.0.0",
-  "author": "joy <jooyoung.dev@gmail.com>",
+  "author": "jaeyoung <limjyjustin@gmail.com>",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^4.4.0",
     "@emotion/react": "^11.9.0",
@@ -67,9 +67,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/S-jooyoung/S-jooyoung.github.io"
+    "url": "https://github.com/limjustin/jaeyoung-tech"
   },
   "bugs": {
-    "url": "https://github.com/S-jooyoung/S-jooyoung.github.io/issues"
+    "url": "https://github.com/limjustin/jaeyoung-tech/issues"
   }
 }
