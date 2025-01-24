@@ -32,13 +32,13 @@
       .activity {
         .activity-title {
           color: var(--primary-text-color);
-          text-decoration: underline;
-          text-decoration-style: wavy;
+          //text-decoration: underline;
+          //text-decoration-style: solid;
           text-decoration-thickness: 1px;
           text-underline-offset: 6px;
           width: 100%;
-          font-size: 20px;
-          font-weight: 400;
+          font-size: 22px;
+          font-weight: 600;
           transition: 300ms;
         }
 
@@ -54,7 +54,7 @@
 
         .activity-description {
           margin: 8px 0px;
-          padding: 1em 1em;
+          padding: .75em .75em;
           font-size: 16px;
           color: var(--content-text-color);
           background-color: var(--button-background-color);
