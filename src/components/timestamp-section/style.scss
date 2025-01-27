@@ -78,18 +78,20 @@
           min-width: 115px;
 
           @include md {
-            width: 200px;
-            min-width: 200px;
+            width: 180px;
+            min-width: 180px;
           }
 
           .job-title {
             color: var(--primary-text-color);
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
             margin-bottom: 5px;
           }
           .job-date {
             margin-right: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
             color: var(--primary-text-color);
             align-self: center;
           }
@@ -99,7 +101,8 @@
           list-style: disc;
 
           .description {
-            margin-bottom: 21px;
+            margin-top: 10px;
+            margin-bottom: 10px;
           }
 
           li {

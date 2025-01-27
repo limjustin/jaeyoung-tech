@@ -11,36 +11,39 @@ function TimeStampSection({ title, timestamps }) {
         {timestamps.map((timestamp, index) =>
           index === 0 ? null : (
             <div className="timestamp" key={index}>
-              <div className="activity">
-                <a className="activity-title" href={timestamp.link}>
-                  {timestamp.activity}
-                </a>
-                <hr/>
-              </div>
+              {/*<div className="activity">*/}
+              {/*  <a className="activity-title" href={timestamp.link}>*/}
+              {/*    {timestamp.activity}*/}
+              {/*  </a>*/}
+              {/*  <hr />*/}
+              {/*</div>*/}
               <div className="job-wrapper">
                 <div className="job">
-                  <div className="job-title">{timestamp.job}</div>
-                  <div className="job-date">{timestamp.date}</div>
+                  <img alt="test" width="75%" src={timestamp.activityDescription}></img>
                 </div>
                 <ul className="job-description">
-                  {timestamp.jobDescriptions.map((jobDescription, index) => {
-                    const splitIndex = jobDescription.indexOf(':');
-                    if (splitIndex !== -1) {
-                      const beforeColon = jobDescription.slice(0, splitIndex + 1);
-                      const afterColon = jobDescription.slice(splitIndex + 1);
+                  <div className="job">
+                    <div className="job-title">{timestamp.job}</div>
+                    <div className="job-date">{timestamp.date}</div>
+                  </div>
+                    {timestamp.jobDescriptions.map((jobDescription, index) => {
+                      const splitIndex = jobDescription.indexOf(':');
+                      if (splitIndex !== -1) {
+                        const beforeColon = jobDescription.slice(0, splitIndex + 1);
+                        const afterColon = jobDescription.slice(splitIndex + 1);
+                        return (
+                          <li className="description" key={index}>
+                            <strong>{beforeColon}</strong>
+                            {afterColon}
+                          </li>
+                        );
+                      }
                       return (
-                        <li className="description" key={index}>
-                          <strong>{beforeColon}</strong>
-                          {afterColon}
-                        </li>
+                        <p className="description" key={index}>
+                          {jobDescription}
+                        </p>
                       );
-                    }
-                    return (
-                      <p className="description" key={index}>
-                        {jobDescription}
-                      </p>
-                    );
-                  })}
+                    })}
                 </ul>
               </div>
             </div>

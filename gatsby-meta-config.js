@@ -57,40 +57,42 @@ module.exports = {
       {
         activity: 'NHN AD',
         activityDescription:
-          '디지털 마케팅 서비스를 제공하는 온라인 광고 대행사',
-        job: 'MLOps Engineer',
+          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/nhnad_logo.png',
+        job: 'NHN AD',
         jobDescriptions: [
-          '머신러닝을 활용한 애드테크 플랫폼을 개발하는 팀에서 MLOps 엔지니어를 담당하고 있습니다.',
-          // '아키텍처 설계 및 컨벤션 정립: 기술 스택 선정부터 시작하여 아키텍처를 설계하고, 코드 컨벤션을 정립하여 일관된 코드 스타일과 유지 보수성을 높였습니다.',
-          // '예약 서비스 개발: 밀리언그라운드 서비스에 필요한 예약 서비스 전체를 설계하고 개발했습니다. 이를 통해 별장 구매자와 일반 사용자가 간편하게 예약을 진행할 수 있도록 하였습니다.',
-          // '종합 예약관리 시스템 개발 및 운영: 예약 관리, 유저 관리, 오너 관리, 요금 관리, 문자 전송, 대시보드 등 전반적인 기능을 포함한 종합 예약 관리 시스템을 개발 및 운영했습니다. 시스템 도입 후 서비스 응대팀의 업무를 줄이며, 고객 문의 응답 시간을 50% 단축하는 성과를 이루었습니다.',
-          // '광고 효율성 분석을 위한 이벤트 추적시스템 구축: 광고 효율을 120% 개선하고 예약률을 52% 상승시키는데 기여 했습니다.',
-          // '검색엔진 최적화(SEO) 개선: 테크니컬 SEO를 적용하여 사이트의 검색엔진 노출을 개선했습니다. 동적 사이트맵과 robots.txt 파일을 생성 및 관리하여 검색엔진 크롤러의 효율적인 접근을 지원했습니다. Lighthouse SEO 및 성능 점수에서 평균 95점을 달성했으며, 구글 검색엔진에서 평균 게재 순위 8위를 달성하였습니다.',
+          '머신러닝을 활용한 애드테크 플랫폼을 개발하고 있습니다.',
         ],
         date: '2024.08 - 현재',
         link: 'https://nhnad.com/nhnad/index.nhn',
       },
+      {
+        activity: '상명대학교 서울캠퍼스',
+        activityDescription:
+          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/sangmyung_univ_logo.png',
+        job: '상명대학교 서울캠퍼스',
+        jobDescriptions: [
+          '○ 휴먼지능정보공학 전공 (컴퓨터과학 부전공)',
+          '○ 전체 평점 4.05 / 4.5 (전공 평점 4.20 / 4.5)',
+          '○ SW Scholarship - Top in Department (2020 Fall Semester)',
+          '○ 제 2회 SM AI 경진대회 - AI 부문 최우수상 수상',
+          '○ 제 1회 SM AI 경진대회 - AI 부문 장려상 수상',
+        ],
+        date: '2019.03 - 2025.02',
+        link: 'https://nhnad.com/nhnad/index.nhn',
+      },
+      {
+        activity: '대한민국 공군',
+        activityDescription:
+          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/rokaf_logo.png',
+        job: '대한민국 공군',
+        jobDescriptions: [
+          '○ 한미연합 정보체계관리병',
+          '○ 공군 병장 만기전역 (21개월)',
+        ],
+        date: '2021.02 - 2022.11',
+        link: 'https://nhnad.com/nhnad/index.nhn',
+      },
 
-      // {
-      //   activity: '스타법무법인',
-      //   activityDescription: '누적 6만 명이 넘는 고객 상담, 성장률 100% 종합 법률 서비스 ',
-      //   job: 'Frontend Developer',
-      //   jobDescriptions: [
-      //     '업무 자동화 백오피스 개발: 단순 업무를 자동화하는 백오피스를 기획 및 개발하여 서비스팀의 주당 업무 시간을 30 시간 이상 절감했습니다.',
-      //     'UI/UX 개선 디자인 개선: 각종 페이지의 UI/UX 디자인을 개선하여 사용자 경험을 크게 향상시켰습니다.',
-      //   ],
-      //   date: '2022.07 ~ 2022.09',
-      //   link: 'https://www.star-law.com/',
-      // },
-
-      // {
-      //   date: '2021.09 ~ 2022.02',
-      //   activity: '대구 ICT 산업 혁신아카데미 4기',
-      // },
-      // {
-      //   date: '2015.03 ~ 2021.08',
-      //   activity: '영남대학교 정보통신공학과',
-      // },
     ],
     projects: [
       // =====        [Project Sample and Structure]        =====
