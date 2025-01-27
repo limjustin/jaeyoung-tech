@@ -15,7 +15,7 @@ function TimeStampSection({ title, timestamps }) {
                 <a className="activity-title" href={timestamp.link}>
                   {timestamp.activity}
                 </a>
-                <p className="activity-description">{timestamp.activityDescription}</p>
+                <hr/>
               </div>
               <div className="job-wrapper">
                 <div className="job">
