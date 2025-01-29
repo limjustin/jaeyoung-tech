@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
   width: 100%;
   margin-bottom: 42px;
 
@@ -16,18 +16,19 @@
     word-wrap: break-word;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    line-height: 1.5;
+    line-height: 1.25;
     color: var(--content-text-color);
     font-family: $font-family;
 
     .description {
       font-size: 16px;
       font-family: $font-family;
+      margin-top: 10px;
       margin-bottom: 20px;
       color: var(--content-text-color);
 
       @include md {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }

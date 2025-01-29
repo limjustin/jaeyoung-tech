@@ -15,9 +15,9 @@ function AboutPage({ data }) {
     <Layout>
       <Seo title="소개 | JAEYOUNG TECH" />
       <Bio author={author} language={language} />
-      <IntroduceSection title="Hello World! 👋🏻" descriptions={introduce} />
-      <TimeStampSection title="Experience 👔" timestamps={timestamps} />
-      <ProjectSection title="Team Projects 🚀" projects={projects} />
+      <IntroduceSection title="자기소개 👋🏻" descriptions={introduce} />
+      <TimeStampSection title="학력 및 경력 사항 👔" timestamps={timestamps} />
+      <ProjectSection title="팀 프로젝트 🚀" projects={projects} />
     </Layout>
   );
 }
