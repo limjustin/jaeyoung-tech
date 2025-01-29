@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeader from '../section-header';
+import Image from '../image';
 import './style.scss';
 
 function TimeStampSection({ title, timestamps }) {
@@ -13,7 +14,7 @@ function TimeStampSection({ title, timestamps }) {
             <div className="timestamp" key={index}>
               <div className="job-wrapper">
                 <div className="job-thumbnail">
-                  <img alt="test" width="75%" src={timestamp.activityDescription}></img>
+                  <Image className="job-thumbnail" src={timestamp.activityDescription} alt="experience_logo"/>
                 </div>
                 <ul className="job-description">
                   <div className="job">

@@ -57,7 +57,7 @@ module.exports = {
       {
         activity: 'NHN AD',
         activityDescription:
-          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/nhnad_logo.png',
+          'logo_nhnad.png',
         job: 'NHN AD',
         jobDescriptions: [
           '머신러닝을 활용한 애드테크 플랫폼을 개발하고 있습니다.',
@@ -68,7 +68,7 @@ module.exports = {
       {
         activity: '상명대학교 서울캠퍼스',
         activityDescription:
-          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/sangmyung_univ_logo.png',
+          'logo_smu.png',
         job: '상명대학교 서울캠퍼스',
         jobDescriptions: [
           '○ 휴먼지능정보공학 전공 (컴퓨터과학 부전공)',
@@ -83,7 +83,7 @@ module.exports = {
       {
         activity: '대한민국 공군',
         activityDescription:
-          'https://skale-static-dev.s3.ap-northeast-2.amazonaws.com/rokaf_logo.png',
+          'logo_rokaf.png',
         job: '대한민국 공군',
         jobDescriptions: [
           '○ 한미연합 정보체계관리병',
