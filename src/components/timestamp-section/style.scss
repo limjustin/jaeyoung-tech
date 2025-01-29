@@ -74,8 +74,8 @@
         margin: 12px 0px;
 
         .job {
-          width: 115px;
-          min-width: 115px;
+          width: 120px;
+          min-width: 120px;
 
           @include md {
             width: 180px;
@@ -98,7 +98,6 @@
             align-self: center;
             width: 200px;
             min-width: 200px;
-            color: gray;
           }
         }
 
