@@ -12,7 +12,7 @@ function TimeStampSection({ title, timestamps }) {
           index === 0 ? null : (
             <div className="timestamp" key={index}>
               <div className="job-wrapper">
-                <div className="job">
+                <div className="job-thumbnail">
                   <img alt="test" width="75%" src={timestamp.activityDescription}></img>
                 </div>
                 <ul className="job-description">

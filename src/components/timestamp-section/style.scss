@@ -73,9 +73,14 @@
         display: flex;
         margin: 12px 0px;
 
-        .job {
+        .job-thumbnail {
           width: 120px;
           min-width: 120px;
+        }
+
+        .job {
+          width: 200px;
+          min-width: 200px;
 
           @include md {
             width: 180px;
@@ -87,8 +92,7 @@
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 5px;
-            width: 200px;
-            min-width: 200px;
+
           }
           .job-date {
             margin-right: 5px;
@@ -96,8 +100,6 @@
             font-size: 14px;
             color: var(--primary-text-color);
             align-self: center;
-            width: 200px;
-            min-width: 200px;
           }
         }
 
