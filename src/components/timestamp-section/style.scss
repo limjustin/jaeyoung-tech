@@ -87,6 +87,8 @@
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 5px;
+            width: 200px;
+            min-width: 200px;
           }
           .job-date {
             margin-right: 5px;
@@ -94,6 +96,9 @@
             font-size: 14px;
             color: var(--primary-text-color);
             align-self: center;
+            width: 200px;
+            min-width: 200px;
+            color: gray;
           }
         }
 
@@ -103,6 +108,7 @@
           .description {
             margin-top: 10px;
             margin-bottom: 10px;
+            font-size: 16px;
           }
 
           li {
