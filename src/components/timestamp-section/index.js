@@ -11,12 +11,6 @@ function TimeStampSection({ title, timestamps }) {
         {timestamps.map((timestamp, index) =>
           index === 0 ? null : (
             <div className="timestamp" key={index}>
-              {/*<div className="activity">*/}
-              {/*  <a className="activity-title" href={timestamp.link}>*/}
-              {/*    {timestamp.activity}*/}
-              {/*  </a>*/}
-              {/*  <hr />*/}
-              {/*</div>*/}
               <div className="job-wrapper">
                 <div className="job">
                   <img alt="test" width="75%" src={timestamp.activityDescription}></img>
