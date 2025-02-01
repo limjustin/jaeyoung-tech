@@ -1,6 +1,6 @@
 ---
 emoji: 🛖
-title: AWS SAM을 활용한 Lambda 로컬 테스트 가이드
+title: AWS SAM 사용하여 Lambda 로컬 테스트
 date: '2025-01-20 11:31:25'
 author: 임재영
 tags: 인프라 github-pages gatsby

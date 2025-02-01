@@ -14,8 +14,8 @@
 
   .thumbnail {
     isolation: isolate;
-    width: 100%;
-    margin-top: 36px;
+    width: 0px;
+    margin-top: 0px;
     border-radius: 12px;
   }
 
@@ -59,7 +59,7 @@
     font-weight: 500;
     color: var(--secondary-text-color);
     align-items: center;
-    margin-top: 20px;
+    // margin-top: 20px;
 
     .author {
       margin-right: 4px;

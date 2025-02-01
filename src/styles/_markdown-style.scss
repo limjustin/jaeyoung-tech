@@ -147,7 +147,7 @@
 .markdown a {
   color: var(--link-text-color);
   text-decoration: none;
-  border-bottom: 0.05em solid;
+  // border-bottom: 0.05em solid;
   border-color: var(--link-text-color);
 }
 
@@ -1064,7 +1064,7 @@
 
 .markdown .gatsby-resp-image-wrapper {
   display: flex !important;
-  justify-content: left;
+  justify-content: center;  // 이미지 정렬
   width: 100% !important;
   min-width: 100%;
 
