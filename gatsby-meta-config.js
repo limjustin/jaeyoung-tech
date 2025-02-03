@@ -4,8 +4,8 @@ module.exports = {
   logo: `/logo.svg`,
   description: `개발자 임재영의 기술 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://jaeyoung.site`, // https://s-jooyoung.github.io
-  siteMap: `https://jaeyoung.site`, // https://s-jooyoung.github.io/sitemap-pages.xml
+  siteUrl: `https://charliebrown.co.kr`, // https://s-jooyoung.github.io
+  siteMap: `https://charliebrown.co.kr`, // https://s-jooyoung.github.io/sitemap-pages.xml
   ogImage: `/ogImage.jpg`, // Path to your in the 'static' folder
   comments: {
     utterances: {
