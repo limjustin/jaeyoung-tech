@@ -90,9 +90,15 @@
 
           .job-title {
             color: var(--primary-text-color);
-            font-size: 20px;
+            // font-size: 20px;
             font-weight: 700;
             margin-bottom: 5px;
+            font-family: "nhn-sans", sans-serif;
+
+            @font-face {
+              font-family: "nhn-sans";
+              src: url("/NHNsans-Bold.woff") format("woff");
+            }
           }
 
           .job-date {
