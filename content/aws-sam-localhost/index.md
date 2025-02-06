@@ -5,7 +5,7 @@ date: '2025-01-20 11:31:25'
 author: 임재영
 tags: 인프라 github-pages gatsby
 categories: 인프라
-thumbnail: './thumbnail.png'
+thumbnail: 'thumbnail.png'
 ---
 
 ### 요약
@@ -27,18 +27,18 @@ AWS SAM(AWS Serverless Application Model)을 활용하여 Lambda 함수를 로�
 
 1. Pycharm IDE에서 `AWS Toolkit` 플러그인 설치가 필요합니다.
 
-![sam-01.png](sam-01.png)
+<img alt="aws-sam-localhost" src="img/sam-1.png"/>
 
 2. IDE 재부팅 이후, 새 프로젝트를 생성하여 좌측 하단 'Other' 탭을 펼치고 'AWS Serverless Application' 항목을 선택합니다.
 
-![sam-2.png](sam-2.png)
+<img alt="aws-sam-localhost" src="img/sam-2.png"/>
 
 - Package Type : `Image` 항목을 선택합니다.
 - SAM Template : `AWS SAM Hello World` 항목을 선택합니다.
 
 3. 아래 그림과 같이 준비되었다면 성공입니다.
 
-<img alt="plugin 환경 설정" src="sam-3.png">
+<img alt="aws-sam-localhost" src="img/sam-3.png"/>
 
 ---
 
@@ -129,7 +129,7 @@ sam local invoke HelloWorldFunction -e events/event.json
 
 2. template.yaml 파일 내에서 실행
 
-![sam-4.png](sam-4.png)
+<img alt="aws-sam-localhost" src="img/sam-4.png"/>
 
 좌측 초록색 실행 버튼을 누르면 됩니다.
 
@@ -159,4 +159,4 @@ restart SAM CLI if you update your AWS SAM template
 - localhost 3000번 포트에서 구동되고 있는 것을 볼 수 있다.
 - 주의 : 로컬 서버 구동 시, `Docker`가 구동되고 있어야 합니다!
 
-![sam-5.png](sam-5.png)
+<img alt="aws-sam-localhost" src="img/sam-5.png"/>

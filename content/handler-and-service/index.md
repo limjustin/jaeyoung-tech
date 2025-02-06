@@ -5,7 +5,7 @@ date: '2025-02-01 15:00:00'
 author: 임재영
 tags: 백엔드 github-pages gatsby
 categories: 백엔드
-thumbnail: './thumbnail.png'
+thumbnail: 'thumbnail.png'
 ---
 
 ### 💡 요약
